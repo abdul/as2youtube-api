@@ -1,0 +1,15 @@
+com.abdulqabiz.webapis.youtube.YouTubeService is the main class. Please check out the source code to find out the public method and associated events.
+
+I am using RegExp class by Pavils Jurjans/Joey Lott/John Giotta  to do pattern matching to get the value of "t" param, which is required to construct YouTube flv url for videos. As per my best knowledge, there is no documented YouTube! API that gives flv url. So this is a hack. I would prefer it doing on server-side because it's optimized (one GET request to your server-side proxy) approach.
+
+BTW! You can find more info about RegExp class at http://www.jurjans.lv/flash/RegExp.html 
+
+Anyways, I hope this code helps you...
+
+I don't use much about licensing but you are free to modify the source code keeping the package-name and header unchanged in each source-file. You can read about licensing in source code (com.abdulqabiz..)..
+
+
+cheers,
+
+Abdul Qabiz
+http://www.abdulqabiz.com
